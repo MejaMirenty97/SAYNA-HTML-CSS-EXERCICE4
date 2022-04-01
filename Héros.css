@@ -1,0 +1,446 @@
+@font-face {
+    font-family: 'Spiderman';
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;400&family=Raleway:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400&family=Raleway:wght@400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* navigateur */
+
+.liste {
+    margin-bottom: 0px;
+}
+
+.liste li {
+    margin-right: 5vh;
+    text-align: center;
+    align-items: center;
+}
+
+.liste li a {
+    font-size: 20px;
+}
+
+
+/* Tante May */
+
+.Power {
+    background-image: url("img19.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 100vh;
+    padding-top: 50vh;
+    padding-left: 20vh;
+}
+
+.Power div {
+    position: relative;
+    align-items: center;
+    justify-content: end;
+}
+
+.heros h1 {
+    font-family: 'Spiderman';
+    font-size: 82px;
+}
+
+.culte h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.valeur {
+    background-color: #114c92;
+    height: 130vh;
+}
+
+#worths {
+    padding-top: 15vh;
+    padding-left: 2vh;
+    width: 450px;
+}
+
+.defend h1 {
+    font-family: 'Spiderman';
+    font-size: 32px;
+    text-align: justify;
+}
+
+.defend h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.bio {
+    padding-top: 10vh;
+}
+
+.bio p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.video {
+    padding-top: 40vh;
+}
+
+.solide {
+    background-image: url("img20.png");
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.fondation {
+    padding-top: 15vh;
+    padding-left: 25vh;
+}
+
+.fondation h1 {
+    font-family: 'Spiderman';
+    font-size: 32px;
+}
+
+.fondation h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Capacité et Compagnons */
+
+
+/*  *Capacité */
+
+.capacity {
+    background-color: #114c92;
+    height: 130vh;
+    padding-top: 20vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.combat {
+    width: 450px;
+}
+
+.combat p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-bottom: 0px;
+    font-stretch: extra-expanded;
+}
+
+.sense {
+    padding-top: 4vh;
+    width: 450px;
+    font-stretch: extra-expanded;
+}
+
+.sense p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+.chatouillie {
+    width: 450px;
+}
+
+.chatouillie p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-bottom: 0px;
+    font-stretch: expanded;
+}
+
+.QI {
+    padding-top: 9.5vh;
+    width: 450px;
+}
+
+.QI p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-bottom: 0px;
+    font-stretch: expanded;
+}
+
+
+/* *Compagnons */
+
+.amis {
+    background-color: #114c92;
+}
+
+.entourage {
+    position: relative;
+    top: -30vh;
+    padding-left: 27vh;
+}
+
+.entourage h1 {
+    font-family: 'Spiderman';
+    font-size: 25px;
+}
+
+.entourage p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#Ned {
+    position: absolute;
+    top: 430vh;
+    z-index: 1;
+    left: 27vh;
+}
+
+#HarryO {
+    position: absolute;
+    z-index: 2;
+    top: 450vh;
+    right: 91vh;
+}
+
+.bff {
+    width: 400.8px;
+    position: relative;
+    right: 20vh;
+    top: -30vh;
+}
+
+.bff h1 {
+    font-family: 'Spiderman';
+    font-size: 25px;
+    text-align: center;
+}
+
+.bff p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4vh;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.MJ {
+    padding-top: 10vh;
+}
+
+.Gwen {
+    width: 600px;
+    position: relative;
+    padding-left: 26vh;
+    top: -30vh;
+}
+
+.Gwen h1 {
+    font-family: 'Spiderman';
+    font-size: 25px;
+    text-align: justify;
+}
+
+.Gwen p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4vh;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+.trio {
+    position: relative;
+    top: -30vh;
+}
+
+.MJMAG {
+    position: relative;
+    left: 10vh;
+}
+
+.MJHO {
+    position: relative;
+    left: 15vh;
+}
+
+.GwenGAR {
+    position: relative;
+    top: 30vh;
+    right: 40vh;
+}
+
+
+/* Les Avengers */
+
+.avengers {
+    background-color: #B11313;
+    height: 190vh;
+}
+
+.vengeurs {
+    position: relative;
+    padding-top: 10vh;
+    padding-left: 20vh;
+    width: 450px;
+}
+
+.vengeurs h1 {
+    font-family: 'Spiderman';
+    font-size: 32px;
+}
+
+.Legends {
+    position: relative;
+    right: 26vh;
+    padding-top: 30vh;
+}
+
+.récap {
+    position: relative;
+    right: 11vh;
+    width: 310px;
+}
+
+.récap p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: lighter;
+    font-stretch: ultra-expanded;
+}
+
+.Legends2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 111vh;
+    top: 105vh;
+}
+
+.Legends3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 106vh;
+    top: 105vh;
+}
+
+.rassemblement {
+    position: relative;
+    right: 101vh;
+}
+
+
+/* Spiderverse */
+
+.multivers {
+    background-image: url("img33.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 89.5vh;
+}
+
+.spidivers {
+    position: relative;
+    width: 400px;
+    align-items: center;
+    justify-content: right;
+    top: 0vh;
+    left: 125vh;
+    background-color: #114c92;
+    opacity: 70%;
+    padding: 45px 12px 7px 12px;
+}
+
+.hyper h1 {
+    font-family: 'Spiderman';
+    font-size: 30px;
+    text-align: right;
+}
+
+.hyper h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+.explain p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2vh;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+/* Footer */
+
+footer {
+    height: 50vh;
+    background-color: #000000;
+}
+
+.liste1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.liste1 a {
+    margin: 0px 10px 0px 10px;
+}
+
+.logo a {
+    margin: 0px 10px 0px 10px;
+}
+
+.liste2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.liste2 a {
+    margin: 0px 10px 0px 10px;
+}
+
+.liste2 select {
+    margin: 0px 10px 0px 10px;
+}
+
+.Langue {
+    padding: 2px 50px 2px 50px;
+    border-radius: 20px;
+}
+
+.réseaux {
+    padding-top: 20vh;
+}
+
+.copy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
